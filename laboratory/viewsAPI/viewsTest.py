@@ -42,7 +42,7 @@ class LaboratoryTestDetailApiView(APIView):
         test = get_object_or_404(Test, id=id)
         return test
 
-    def get(self, id):
+    def get(self, request, id):
         test = self.getObject(id)
         serializer = TestSerializer(test)
         return Response(serializer.data, status=status.HTTP_200_OK)
