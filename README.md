@@ -1,4 +1,4 @@
-# laboratory_backend
+# Note
 In this repository there is the CRUD of an agenda for assigning appointments to the affiliates of a laboratory, this is the version made in Django because it is made in springboot with the name app_laboratory
 
 
