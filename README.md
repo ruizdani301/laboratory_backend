@@ -1,6 +1,16 @@
 # Note
 In this repository there is the CRUD of an agenda for assigning appointments to the affiliates of a laboratory, this is the version made in Django because it is made in springboot with the name app_laboratory
 
+## from docker 
+
+If you want to try it, you could download the following docker.
+
+- docker push ruizdani301/crudlab:tagname (aplication docker)
+- docker push ruizdani301/mysql:tagname (mysql docker)
+
+- After verifying that the 2 dockers are up or running, execute in the browser or postman  localhost:8000, which is the docker connection port.
+
+- now try the routes.
 
 # ***laboratory_backend***
   This project present through API REST services, the ability to control a laboratory appointment schedule.  
